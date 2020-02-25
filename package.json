@@ -1,0 +1,30 @@
+{
+  "name": "geop-huinay",
+  "version": "1.0.0",
+  "description": "Geoportal - Monitoreo Huinay",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/otrojota/geop-huinay.git"
+  },
+  "keywords": [
+    "geoportal",
+    "pucv",
+    "pomeo"
+  ],
+  "author": "Jota",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/otrojota/geop-huinay/issues"
+  },
+  "homepage": "https://github.com/otrojota/geop-huinay#readme",
+  "dependencies": {
+    "geop-base-proveedor-capas": "git+https://github.com/otrojota/geop-base-proveedor-capas.git",
+    "moment-timezone": "^0.5.28",
+    "mongodb": "^3.5.3",
+    "request": "^2.88.2"
+  }
+}

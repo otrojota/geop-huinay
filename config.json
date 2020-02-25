@@ -1,0 +1,155 @@
+{
+    "webServer":{
+        "http":{"port":8186}
+    },
+    "timeZone":"America/Santiago",
+    "mongoDB":{
+        "url":"mongodb://localhost:27017",
+        "database":"huinay"
+    },
+    "estaciones":[{
+        "codigo":"huinay01",
+        "lat":-42.379731,
+        "lng":-72.414966,
+        "nombre":"Huinay 01",
+        "tipo":"hobolink",
+        "user":"FUNDACIONHUINAY",
+        "password":"FUNDACIONHUINAY",
+        "nroSerie":"20240693",
+        "apiToken":"447c0280365f7b137442f53f286c1bf182b4fefc",
+        "variables":[{
+            "codigo":"TEMP",
+            "nombre":"Temperatura",
+            "sensor":"20218315-1",
+            "formatos":["serieTiempo", "valorEnPunto"],
+            "icono":"img/variables/temperatura.svg",
+            "opciones":{
+                "temporal":true,
+                "unidad":"ºC",
+                "decimales":2
+            }
+        }, {
+            "codigo":"RAIN",
+            "nombre":"Lluvia",
+            "sensor":"20199509-1",
+            "formatos":["serieTiempo", "valorEnPunto"],
+            "icono":"img/variables/lluvia.svg",
+            "opciones":{
+                "temporal":true,
+                "unidad":"mm",
+                "decimales":0
+            }
+        }, {
+            "codigo":"PRESS",
+            "nombre":"Presión Atmosférica",
+            "sensor":"20079875-1",
+            "formatos":["serieTiempo", "valorEnPunto"],
+            "icono":"img/variables/presion.svg",
+            "opciones":{
+                "temporal":true,
+                "unidad":"mbar",
+                "decimales":2
+            }
+        }, {
+            "codigo":"RH",
+            "nombre":"Humedad Relativa",
+            "sensor":"20218315-2",
+            "formatos":["serieTiempo", "valorEnPunto"],
+            "icono":"img/variables/humedad.svg",
+            "opciones":{
+                "temporal":true,
+                "unidad":"%",
+                "decimales":2
+            }
+        }, {
+            "codigo":"DEW_POINT",
+            "nombre":"Punto de Rocío",
+            "sensor":"20218315-3",
+            "formatos":["serieTiempo", "valorEnPunto"],
+            "icono":"img/variables/punto-rocio.svg",
+            "opciones":{
+                "temporal":true,
+                "unidad":"ºC",
+                "decimales":2
+            }
+        }, {
+            "codigo":"PAR",
+            "nombre":"Radiación Fotosintéticamente Activa",
+            "sensor":"10810632-1",
+            "formatos":["serieTiempo", "valorEnPunto"],
+            "icono":"img/variables/radiacion-uv.svg",
+            "opciones":{
+                "temporal":true,
+                "unidad":"uE",
+                "decimales":0
+            }
+        }, {
+            "codigo":"SOLAR_RAD",
+            "nombre":"Radiación Solar",
+            "sensor":"20167630-1",
+            "formatos":["serieTiempo", "valorEnPunto"],
+            "icono":"img/variables/radiacion-uv.svg",
+            "opciones":{
+                "temporal":true,
+                "unidad":"W/m²",
+                "decimales":0
+            }
+        }, {
+            "codigo":"WIND_SPEED",
+            "nombre":"Velocidad del Viento",
+            "sensor":"20420602-1",
+            "formatos":["serieTiempo", "valorEnPunto"],
+            "icono":"img/variables/velocidad-viento.svg",
+            "opciones":{
+                "temporal":true,
+                "unidad":"m/s",
+                "decimales":2
+            }
+        }, {
+            "codigo":"GUST_SPEED",
+            "nombre":"Ráfaga Viento",
+            "sensor":"20420602-2",
+            "formatos":["serieTiempo", "valorEnPunto"],
+            "icono":"img/variables/velocidad-viento.svg",
+            "opciones":{
+                "temporal":true,
+                "unidad":"m/s",
+                "decimales":2
+            }
+        }, {
+            "codigo":"WIND_DIR",
+            "nombre":"Dirección del Viento",
+            "sensor":"20186409-1",
+            "formatos":["serieTiempo", "valorEnPunto"],
+            "icono":"img/variables/direccion-viento.svg",
+            "opciones":{
+                "temporal":true,
+                "unidad":"º",
+                "decimales":0
+            }
+        }, {
+            "codigo":"UV_SU_100",
+            "nombre":"UV / SU-100",
+            "sensor":"20122812-1",
+            "formatos":["serieTiempo", "valorEnPunto"],
+            "icono":"img/variables/radiacion-uv.svg",
+            "usarValorEscalado":true,
+            "opciones":{
+                "temporal":true,
+                "unidad":"umol m-2 s-1",
+                "decimales":2
+            }
+        }, {
+            "codigo":"BATTERY",
+            "nombre":"Batería Estación",
+            "sensor":"20240693-B",
+            "formatos":["serieTiempo", "valorEnPunto"],
+            "icono":"img/variables/bateria.svg",
+            "opciones":{
+                "temporal":true,
+                "unidad":"%",
+                "decimales":0
+            }
+        }]
+    }]
+}
