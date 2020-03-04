@@ -1,4 +1,5 @@
 global.confPath = __dirname + "/config.json";
+global.resDir = __dirname + "/resources";
 const config = require("./lib/Config").getConfig();
 const ProveedorCapasHuinay = require("./lib/ProveedorCapasHuinay");
 
