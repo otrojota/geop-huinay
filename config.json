@@ -9,8 +9,8 @@
     },
     "estaciones":[{
         "codigo":"huinay01",
-        "lat":-42.57444,
-        "lng":-72.62861,
+        "lat":-42.37931,
+        "lng":-72.41389,
         "nombre":"Huinay 01",
         "tipo":"hobolink",
         "user":"FUNDACIONHUINAY",
